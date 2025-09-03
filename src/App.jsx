@@ -9,10 +9,18 @@ function App() {
   return (
     <>
       <Navbar />
-      <About />
-      <WorkExperience />
-      <Project />
-      <Education />
+      <div id="about">
+        <About />
+      </div>
+      <div id="workExperience">
+        <WorkExperience />
+      </div>
+      <div id="project">
+        <Project />
+      </div>
+      <div id="education">
+        <Education />
+      </div>
     </>
   )
 }
