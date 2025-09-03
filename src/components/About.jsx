@@ -8,9 +8,15 @@ const skillsRows = [
 const About = () => {
   return (
     <div className="about-container">
-      <div className="about-name">I'm <br />Anshit Chauhan</div>
-      <div className="about-description">
-        I’m a MERN Stack Developer passionate about building responsive, scalable, and user-friendly web applications. I enjoy turning ideas into interactive products, with hands-on experience in React, Node.js, Express, and MongoDB.
+      <div className="about-content">
+        <div className="about-image">
+          <img src="/Image.png" alt="Anshit Chauhan" />
+        </div>
+        <div className="about-description">
+          I'm <br />
+          <span className="highlight">Anshit Chauhan</span> <br />
+          MERN Stack Developer passionate about building responsive, scalable, and user-friendly web applications. I enjoy turning ideas into interactive products, with hands-on experience in React, Node.js, Express, and MongoDB.
+        </div>
       </div>
 
       <div className="skills-wrapper">
