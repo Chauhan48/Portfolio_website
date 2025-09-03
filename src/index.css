@@ -22,6 +22,11 @@
   box-shadow: 0 2px 5px rgba(0,0,0,0.4);
   margin: 20px auto;
   width: fit-content;
+  position: fixed;   /* Add this line */
+  top: 0;            /* Add this line */
+  left: 0;           /* Optional: pin to left of screen */
+  right: 0;          /* Optional: pin to right (centered with margin: auto or left/right) */
+  z-index: 100;
 }
 
 .nav-items {
@@ -47,6 +52,8 @@
   align-items: center;
   padding: 50px 20px;
   box-sizing: border-box;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .about-content {

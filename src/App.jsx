@@ -1,5 +1,6 @@
 import About from "./components/About"
 import Navbar from "./components/Navbar"
+import WorkExperience from "./components/WorkExperience"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar />
       <About />
+      <WorkExperience />
     </>
   )
 }
