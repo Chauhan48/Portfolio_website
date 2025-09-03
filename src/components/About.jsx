@@ -11,7 +11,7 @@ const About = () => {
     <div className="about-container">
       <div className="about-content">
         <div className="about-image">
-          <img src="/Image.png" alt="Anshit Chauhan" />
+          <img src={`${import.meta.env.BASE_URL}Image.png`} alt="Anshit Chauhan" />
         </div>
         <div className="about-description">
           Hi, I'm <br />
