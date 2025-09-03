@@ -1,15 +1,16 @@
+// import './Navbar.css';
+
 const Navbar = () => {
   return (
-    <div>
-      <nav>
-        <div>
-            <a>Education</a>
-            <a>Projects</a>
-            <a>Work Experience</a>
-        </div>
-      </nav>
-    </div>
-  )
-}
+    <nav className="navbar">
+      <div className="nav-items">
+        <a href="#about">About</a>
+        <a href="#work">Work Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+      </div>
+    </nav>
+  );
+};
 
-export default Navbar
+export default Navbar;
