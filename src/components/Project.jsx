@@ -1,3 +1,4 @@
+import ApiProjectCard from "./ApiProjectCard";
 import ProjectCard from "./ProjectCard"
 
 const projects = [
@@ -10,7 +11,7 @@ const projects = [
 
 const Project = () => {
   return (
-    <div style={{marginTop: "5%", marginBottom: "5%"}}>
+    <div style={{ marginTop: "5%", marginBottom: "5%" }}>
       <h1 style={{ display: "flex", justifyContent: "center" }}>Projects</h1>
       <div className="projects-grid">
 
@@ -23,6 +24,20 @@ const Project = () => {
             projectLink={p.projectLink}
           />
         ))}
+        <ApiProjectCard
+          title="Chat App API"
+          description="Built a real-time chat backend with user authentication, message delivery, and WebSocket support."
+          techStack="Node.js, Express, Socket.IO, MongoDB, TypeScript"
+          projectLink="https://github.com/Chauhan48/CHAT_APP_BACKEND"
+        />
+
+        <ApiProjectCard
+          title="Library Management API"
+          description="Developed a RESTful API for managing books, users, and loans with search and notification features."
+          techStack="Node.js, Express, MongoDB, JavaScript"
+          projectLink="https://github.com/Chauhan48/Library-management-system-"
+        />
+
       </div>
     </div>
   );
