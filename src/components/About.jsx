@@ -6,6 +6,7 @@ const skillsRows = [
 ];
 
 const About = () => {
+  const emojis = Array(10).fill('👋');
   return (
     <div className="about-container">
       <div className="about-content">
@@ -13,7 +14,7 @@ const About = () => {
           <img src="/Image.png" alt="Anshit Chauhan" />
         </div>
         <div className="about-description">
-          I'm <br />
+          Hi, I'm <br />
           <span className="highlight">Anshit Chauhan</span> <br />
           MERN Stack Developer passionate about building responsive, scalable, and user-friendly web applications. I enjoy turning ideas into interactive products, with hands-on experience in React, Node.js, Express, and MongoDB.
         </div>

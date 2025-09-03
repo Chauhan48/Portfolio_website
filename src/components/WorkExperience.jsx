@@ -2,7 +2,7 @@
 const WorkExperience = () => {
     return (
         <div>
-            <h1>Work Experience</h1>
+            <h1 style={{display: "flex", justifyContent: "center"}}>Work Experience</h1>
             <h3>ChicMic Studios | Backend Developer Intern
                 <span style={{ display: "flex", justifyContent: "flex-end" }}>January 2025 - September 2025</span>
             </h3>

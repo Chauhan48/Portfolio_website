@@ -60,7 +60,6 @@
   display: flex;
   width: 100%;
   max-width: 1200px;
-  gap: 50px;
   flex-wrap: wrap;
 }
 
@@ -125,4 +124,101 @@
 .skill:hover {
   transform: translateY(-5px) scale(1.05);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.project-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  max-width: 280px;
+}
+
+.project-card:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-image {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.project-title {
+  margin: 0 0 6px;
+  font-size: 1rem;
+}
+
+.tech-stack-used {
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.3;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.education-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.education-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  color: #222;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.education-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.education-table thead {
+  background-color: #686a6c;
+  color: #fff;
+}
+
+.education-table th,
+.education-table td {
+  padding: 12px 18px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.education-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.education-table tbody tr:hover {
+  background-color: #e6f0ff;
+  cursor: pointer;
 }
