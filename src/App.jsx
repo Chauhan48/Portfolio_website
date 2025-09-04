@@ -2,6 +2,7 @@ import About from "./components/About"
 import Education from "./components/Education"
 import Navbar from "./components/Navbar"
 import Project from "./components/Project"
+import SocialMedia from "./components/SocialMedia"
 import WorkExperience from "./components/WorkExperience"
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <SocialMedia />
       <div id="about">
         <About />
       </div>

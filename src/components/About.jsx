@@ -6,7 +6,6 @@ const skillsRows = [
 ];
 
 const About = () => {
-  const emojis = Array(10).fill('👋');
   return (
     <div className="about-container">
       <div className="about-content">
