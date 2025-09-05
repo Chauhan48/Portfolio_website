@@ -5,7 +5,7 @@ const projects = [
   { id: 1, image: 'flappy_bird.png', techStackUsed: 'React, JavaScript, Canvas', projectTitle: 'Flappy Bird Game', projectLink: 'https://chauhan48.github.io/Flappy_Bird_Frontend/' },
   { id: 2, image: 'taste_haven.png' , techStackUsed: 'React, Bootstrap, Node, Mongodb, Express, JavaScript', projectTitle: 'Taste Haven', projectLink: 'https://taste-haven.vercel.app/' },
   { id: 3, image: 'netflix_clone.png' , techStackUsed: 'React, JavaScript, TailwindCSS, Firebase', projectTitle: 'Project 3', projectLink: 'https://github.com/Chauhan48/Netflix_Clone' },
-  // { id: 4, image: 'image4.jpg', techStackUsed: 'Upwork API, Cron', projectTitle: 'Project 4', projectLink: 'https://...' },
+  { id: 4, image: 'quizz.png', techStackUsed: 'Node.js, Express, EJS, Chart.js', projectTitle: 'Quizz', projectLink: 'https://quizz-rf8u.onrender.com/' },
   // { id: 5, image: 'image5.jpg', techStackUsed: '2FA Auth', projectTitle: 'Project 5', projectLink: 'https://...' },
 ];
 
