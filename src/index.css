@@ -36,6 +36,7 @@ html {
 .nav-items {
   display: flex;
   gap: 40px;
+  cursor: pointer;
 }
 
 .nav-items a {
